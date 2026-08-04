@@ -1,0 +1,105 @@
+FORM
+{
+margin:0px;
+border:0px none;
+padding:1px;
+outline-width:0px;
+}
+
+BUTTON, INPUT[type=button], INPUT[type=submit], INPUT[type=reset]
+{
+height:28px;
+border:1px solid #BE3A20;
+border-radius:5px;
+margin:1px;
+padding:1px 10px;
+cursor: pointer;
+font-weight: bold;
+font-size:14px;
+color:#FFFFFF;
+background-color:#EE6A50;
+}
+
+BUTTON.deck, INPUT.deck[type=button], INPUT.deck[type=submit], INPUT.deck[type=reset]
+{
+width:80px;
+height:19px;
+border:none;
+border-radius:0;
+margin:0;
+padding:0px 6px;
+font-weight:normal;
+font-size:13px;
+white-space:nowrap;
+background-color:#688080;
+}
+
+INPUT[type=text], INPUT[type=password], INPUT[type=date], INPUT[type=time], INPUT[type=number]
+{
+height:22px;
+border:2px solid #AAAAAA;
+border-radius:5px;
+margin:1px;
+padding:1px 6px;
+font-size:15px;
+color:#000000;
+background-color:#F0F0F0;
+}
+
+INPUT[type=checkbox]
+{
+outline:2px solid #AAAAAA;
+margin-right:10px;
+}
+
+SELECT
+{
+height:28px;
+border:2px solid #AAAAAA;
+border-radius:5px;
+margin:1px;
+padding:1px 6px;
+font-size:15px;
+color:#000000;
+background-color:#F0F0F0;
+}
+
+TEXTAREA
+{
+border:2px solid #AAAAAA;
+border-radius:5px;
+margin:1px;
+padding:1px 6px;
+font-size:15px;
+color:#000000;
+background-color:#F0F0F0;
+}
+
+TABLE.form
+{
+margin:0px;
+border:2px solid #AAAAAA;
+border-radius:17px;
+border-spacing:0px;
+padding:0px;
+background-color:#FFFFFF;
+}
+
+TD.form
+{
+margin:0px;
+padding:3px 5px 3px 5px;
+outline-width:0px;
+color:black;
+}
+
+.form_label
+{
+color:grey;
+padding: 2px 10px;
+}
+
+.close_icon
+{
+background-color:#EE6A50 !important;
+}

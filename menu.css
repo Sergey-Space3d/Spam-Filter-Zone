@@ -1,0 +1,63 @@
+.menu
+{
+background-color:#004040;
+color:#FFFFFF;
+}
+
+TABLE.menu
+{
+margin:0px;
+border-spacing:0px;
+padding:0px;
+}
+
+TD.menu
+{
+height:30px;
+margin:0;
+border-right:3px solid #004040;
+padding:0px;
+text-align:left;
+vertical-align:middle;
+background-color:#006060;
+}
+
+A.menu
+{
+margin:0;
+padding:5px 10px;
+vertical-align:middle;
+text-decoration:none;
+font-size:16px;
+font-weight:normal;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+A.menu:link, A.menu:visited, A.menu:active
+{
+background-color:#006060;
+color:#FFFFFF;
+display:block;
+text-decoration:none;
+}
+
+A.menu:hover
+{
+background-color:#008080;
+color:#FFFFFF;
+display:block;
+text-decoration:none;
+}
+
+DIV.submenu
+{
+margin:0;
+padding-top:2px;
+padding-left:2px;
+}
+
+.selmenuitem
+{
+color:#FFFFFF !important;
+background-color:#004040 !important;
+}
