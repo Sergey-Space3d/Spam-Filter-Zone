@@ -19,6 +19,7 @@ class SelectorForm extends CForm
         {
             $attrs = array('title'=>$title);
             if ($width > 0) $attrs['style'] = "width:{$width}px;";
+            if ($max_width > 0) $attrs['style'] .= "max-width:{$max_width}px;";
             if (count($items) == 1)
             {
                 $attrs['disabled'] = 'disabled';

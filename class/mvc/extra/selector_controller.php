@@ -11,7 +11,11 @@ abstract class SelectorController extends CController
     /** The constructor */
     public function __construct($action, array $args = null, $class)
     {
-        $this->label = ($class instanceof CDbLabel) ? $class : $class::label();
+    	if (!$class) $class = 'Value';
+    	
+    	if (!class_exists($class)) $this->label = new CDbLabel($class);
+        else $this->label = ($class instanceof CDbLabel) ? $class : $class::label();
+        
         parent::__construct($action, $args);
     }
     
