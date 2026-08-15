@@ -1,0 +1,5 @@
+1) Implemented Edit Spam Text Form. 
+The form allows editing regular expression spam text, and the spam score.
+
+2) Implemented Sender Domain Selector Form.
+This would filter emails with the same domain name, or IP group.
